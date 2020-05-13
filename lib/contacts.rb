@@ -18,6 +18,9 @@ def remove_strawberry(contacts)
   contacts.each do |person, data|
     data.each do |attribute, value|
       if attribute == :favorite_ice_cream_flavors
+        value.each do
+        end #value.each loop
+      end #if statement
     end #data.each loop (2nd level)
   end #contacts.each loop (1st level)
 end #remove_strawberry method
